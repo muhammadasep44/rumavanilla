@@ -43,3 +43,4 @@ This repository contains the production-ready source code for the official corpo
 - **Tailwind CSS** (via CDN with custom color system: Brand Forest Green & Gold Accent)
 - **Font Awesome 6.4.0** (Icons)
 - **Google Fonts** (Montserrat & Inter)
+

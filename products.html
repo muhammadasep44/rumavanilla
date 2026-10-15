@@ -23,14 +23,14 @@
     <meta property="og:site_name" content="Ruma Vanilla - PT. Bumi Ruma Nusantara">
     <meta property="og:title" content="Vanilla Planifolia Gourmet & Pure Vanilla Powder 1kg | PT. Bumi Ruma Nusantara">
     <meta property="og:description" content="Bulk supply of premium Vanilla Planifolia Gourmet (14-19cm) and 100% Pure Vanilla Powder (Kemasan 1kg) direct from Indonesian curing facilities.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1615486171430-b30a597a7e3c?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:image" content="https://rumavanilla.com/images/products/gourmet_16_17cm.jpg">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Vanilla Planifolia Gourmet & Vanilla Powder 1kg | PT. Bumi Ruma Nusantara">
     <meta name="twitter:description" content="Direct export of Vanilla Planifolia Gourmet pods and pure Vanilla Powder in 1kg packaging with certified vanillin yields.">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1615486171430-b30a597a7e3c?q=80&w=1200&auto=format&fit=crop">
+    <meta name="twitter:image" content="https://rumavanilla.com/images/products/gourmet_16_17cm.jpg">
 
     <!-- Favicon -->
     <link rel="icon" type="image/jpeg" href="images/logo.jpg">
@@ -135,7 +135,7 @@
           "@type": "Product",
           "@id": "https://rumavanilla.com/products.html#gourmet-vanilla",
           "name": "Vanilla Planifolia Gourmet Beans (Size 14-15cm, 16-17cm, 18-19cm)",
-          "image": "https://images.unsplash.com/photo-1615486171430-b30a597a7e3c",
+          "image": "https://rumavanilla.com/images/products/gourmet_16_17cm.jpg",
           "description": "Premium whole Indonesian Vanilla Planifolia Gourmet pods available in calibrated sizes (14-15cm, 16-17cm, 18-19cm). Plump, oily, high moisture 28-33%, certified 1.8-2.5% vanillin.",
           "brand": { "@type": "Brand", "name": "Bumi Ruma Nusantara" },
           "sku": "BRN-VAN-GOURMET",
@@ -151,7 +151,7 @@
           "@type": "Product",
           "@id": "https://rumavanilla.com/products.html#vanilla-powder",
           "name": "Pure Vanilla Powder (Kemasan 1kg)",
-          "image": "https://images.unsplash.com/photo-1596647900457-1936ea08e08d",
+          "image": "https://rumavanilla.com/images/products/vanilla_powder_1kg.jpg",
           "description": "100% pure ground Planifolia vanilla powder in Kemasan 1kg vacuum foil packaging. Zero additives, sugar-free, moisture <10%, vanillin >1.5%.",
           "brand": { "@type": "Brand", "name": "Bumi Ruma Nusantara" },
           "sku": "BRN-VAN-POWDER-1KG",
@@ -255,7 +255,7 @@
     <!-- ========================================================================= -->
     <section class="relative pt-36 pb-20 lg:pt-48 lg:pb-28 bg-brand-900 overflow-hidden text-white">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1615486171430-b30a597a7e3c?q=80&w=2000&auto=format&fit=crop" alt="Wholesale Vanilla Beans Catalog" class="w-full h-full object-cover object-center opacity-60">
+            <img src="images/hero/hero_macro_beans.jpg" alt="Wholesale Indonesian Gourmet Vanilla Beans Catalog" class="w-full h-full object-cover object-center opacity-60">
             <div class="absolute inset-0 bg-gradient-to-r from-brand-900 via-brand-900/80 to-brand-900/40"></div>
         </div>
 
@@ -446,7 +446,27 @@
                 </div>
 
                 <div class="fade-in-up" style="transition-delay: 0.2s;">
-                    <img src="https://images.unsplash.com/photo-1615486171430-b30a597a7e3c?q=80&w=1000&auto=format&fit=crop" alt="Vanilla Planifolia Gourmet Beans" class="rounded-3xl shadow-xl w-full h-[480px] object-cover">
+                    <div class="relative bg-brand-900 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                        <img id="gourmetSizePreview" src="images/products/gourmet_16_17cm.jpg" alt="Vanilla Planifolia Gourmet Beans" class="w-full h-[480px] object-cover transition-all duration-500">
+                        <div class="absolute top-4 left-4 bg-brand-900/80 backdrop-blur text-white text-xs font-bold px-3 py-1.5 rounded-lg border border-white/20">
+                            <span id="gourmetSizeLabel">Size 16 - 17 cm (Standard Export)</span>
+                        </div>
+                    </div>
+                    <!-- Quick Size Selector Buttons -->
+                    <div class="grid grid-cols-3 gap-3 mt-4">
+                        <button type="button" onclick="document.getElementById('gourmetSizePreview').src='images/products/gourmet_14_15cm.jpg'; document.getElementById('gourmetSizeLabel').innerText='Size 14 - 15 cm (Medium Gourmet)';" class="bg-white hover:bg-brand-50 border-2 border-brand-200 hover:border-accent-500 p-2.5 rounded-xl text-center shadow-xs transition-all">
+                            <span class="block text-xs text-gray-500 font-medium">Small</span>
+                            <strong class="text-sm font-bold text-brand-900">14-15 cm</strong>
+                        </button>
+                        <button type="button" onclick="document.getElementById('gourmetSizePreview').src='images/products/gourmet_16_17cm.jpg'; document.getElementById('gourmetSizeLabel').innerText='Size 16 - 17 cm (Standard Export)';" class="bg-white hover:bg-brand-50 border-2 border-accent-500 p-2.5 rounded-xl text-center shadow-xs transition-all">
+                            <span class="block text-xs text-accent-600 font-bold">Standard</span>
+                            <strong class="text-sm font-bold text-brand-900">16-17 cm</strong>
+                        </button>
+                        <button type="button" onclick="document.getElementById('gourmetSizePreview').src='images/products/gourmet_18_19cm.jpg'; document.getElementById('gourmetSizeLabel').innerText='Size 18 - 19 cm (Super King Size)';" class="bg-white hover:bg-brand-50 border-2 border-brand-200 hover:border-accent-500 p-2.5 rounded-xl text-center shadow-xs transition-all">
+                            <span class="block text-xs text-gray-500 font-medium">King Size</span>
+                            <strong class="text-sm font-bold text-brand-900">18-19 cm</strong>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -460,7 +480,21 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="order-2 lg:order-1 fade-in-up">
-                    <img src="https://images.unsplash.com/photo-1596647900457-1936ea08e08d?q=80&w=1000&auto=format&fit=crop" alt="Pure Vanilla Powder 1kg Packaging" class="rounded-3xl shadow-xl w-full h-[480px] object-cover">
+                    <div class="relative bg-brand-50 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                        <img id="powderPreviewImg" src="images/products/vanilla_powder_1kg.jpg" alt="Pure Vanilla Powder 1kg Packaging" class="w-full h-[480px] object-cover transition-all duration-500">
+                        <div class="absolute top-4 left-4 bg-accent-500 text-brand-900 text-xs font-bold px-3.5 py-1.5 rounded-lg shadow-sm">
+                            Kemasan 1kg Vacuum Foil
+                        </div>
+                    </div>
+                    <!-- Secondary format switch -->
+                    <div class="flex items-center gap-3 mt-4">
+                        <button type="button" onclick="document.getElementById('powderPreviewImg').src='images/products/vanilla_powder_1kg.jpg'" class="text-xs bg-white border border-gray-200 px-3.5 py-2 rounded-lg font-bold text-brand-900 hover:bg-brand-50 shadow-xs flex items-center gap-1.5">
+                            <i class="fa-solid fa-box text-accent-600"></i> Kemasan 1kg Bag
+                        </button>
+                        <button type="button" onclick="document.getElementById('powderPreviewImg').src='images/products/vanilla_powder_jar.jpg'" class="text-xs bg-white border border-gray-200 px-3.5 py-2 rounded-lg font-bold text-brand-900 hover:bg-brand-50 shadow-xs flex items-center gap-1.5">
+                            <i class="fa-solid fa-jar text-brand-800"></i> Pure Powder Detail
+                        </button>
+                    </div>
                 </div>
 
                 <div class="order-1 lg:order-2 fade-in-up">
@@ -779,15 +813,26 @@
                     </div>
                 </div>
 
-                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl text-center fade-in-up" style="transition-delay: 0.2s;">
-                    <div class="text-5xl text-accent-500 mb-6"><i class="fa-solid fa-boxes-stacked"></i></div>
-                    <h3 class="font-heading font-bold text-2xl mb-4">Custom Sizing for OEM & Repackers</h3>
-                    <p class="text-sm text-gray-400 leading-relaxed mb-8">
-                        Need specific retail bundles (e.g., 2-bean, 5-bean, or 10-bean vacuum packs with custom private labeling)? Our Sukabumi facility supports OEM contract packing for retail brands.
-                    </p>
-                    <a href="contact.html" class="inline-block bg-accent-500 text-brand-900 font-bold px-8 py-3.5 rounded-lg hover:bg-accent-600 transition-colors shadow-gold">
-                        Inquire Custom Packaging
-                    </a>
+                <div class="fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 group">
+                        <img id="packagingPhotoPreview" src="images/products/gourmet_four_packs.jpg" alt="Commercial Vacuum Sealed Vanilla Packaging" class="w-full h-80 object-cover transition-all duration-500">
+                        <div class="absolute bottom-4 left-4 right-4 bg-brand-950/80 backdrop-blur-md p-4 rounded-xl border border-white/10 text-left">
+                            <span class="text-xs text-accent-500 font-bold uppercase tracking-wider block mb-1">Authentic Facility Packaging</span>
+                            <p class="text-xs text-gray-300">Food-grade vacuum sealed 1kg packs & reinforced export master boxes ready for international sea & air dispatch.</p>
+                        </div>
+                    </div>
+                    <!-- Packaging photo tabs -->
+                    <div class="grid grid-cols-3 gap-2 mt-3">
+                        <button type="button" onclick="document.getElementById('packagingPhotoPreview').src='images/products/gourmet_four_packs.jpg'" class="text-xs bg-white/10 hover:bg-white/20 border border-white/10 text-white py-2 px-2 rounded-lg font-medium transition-colors text-center">
+                            4-Pack Export
+                        </button>
+                        <button type="button" onclick="document.getElementById('packagingPhotoPreview').src='images/products/vacuum_pack_1000g.jpg'" class="text-xs bg-white/10 hover:bg-white/20 border border-white/10 text-white py-2 px-2 rounded-lg font-medium transition-colors text-center">
+                            1000g Vacuum
+                        </button>
+                        <button type="button" onclick="document.getElementById('packagingPhotoPreview').src='images/products/export_box.jpg'" class="text-xs bg-white/10 hover:bg-white/20 border border-white/10 text-white py-2 px-2 rounded-lg font-medium transition-colors text-center">
+                            Master Box
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

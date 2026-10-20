@@ -10,7 +10,7 @@ This repository contains the production-ready source code for the official corpo
 - **Domain**: [rumavanilla.com](https://rumavanilla.com)
 - **Email**: hello@rumaexport.com
 - **WhatsApp**: +62 857-9700-3258
-- **Corporate Office**: Jl. Tegal Wangi, Kel. Sukakarya, Kec. Warudoyong, Kota Sukabumi, Jawa Barat 43135, Indonesia
+- **Corporate Office**: Babakan, Kec. Cisaat, Kab. Sukabumi, Jawa Barat 43152, Indonesia
 
 ---
 

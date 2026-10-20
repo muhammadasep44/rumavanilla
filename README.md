@@ -9,7 +9,7 @@ Official B2B multi-page export website for **PT. Bumi Ruma Nusantara** ([rumavan
 This repository contains the production-ready source code for the official corporate export portal:
 - **Domain**: [rumavanilla.com](https://rumavanilla.com)
 - **Email**: hello@rumaexport.com
-- **WhatsApp**: +62 857-9700-3258
+- **WhatsApp**: +62 851-1741-0114
 - **Corporate Office**: Babakan, Kec. Cisaat, Kab. Sukabumi, Jawa Barat 43152, Indonesia
 
 ---

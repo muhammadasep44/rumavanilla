@@ -10,6 +10,7 @@ This repository contains the production-ready source code for the official corpo
 - **Domain**: [rumavanilla.com](https://rumavanilla.com)
 - **Email**: hello@rumaexport.com
 - **WhatsApp**: +62 851-1741-0114
+- **Instagram**: [@ruma.vanilla](https://www.instagram.com/ruma.vanilla/)
 - **Corporate Office**: Babakan, Kec. Cisaat, Kab. Sukabumi, Jawa Barat 43152, Indonesia
 
 ---
